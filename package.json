@@ -1,0 +1,24 @@
+{
+  "name": "node-red-firebird-cli",
+  "version": "0.0.1",
+  "description": "Node-RED's node for connect to firebird.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tree-soft/node-red-firebird-cli.git"
+  },
+  "author": "Stanislav Bogdanov <sgbogdanov@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tree-soft/node-red-firebird-cli/issues"
+  },
+  "homepage": "https://github.com/Tree-soft/node-red-firebird-cli#readme",
+  "dependencies": {
+    "firebird-cli": "^0.8.5"
+  },
+
+  "node-red" : {
+    "nodes": {
+      "firebird-cli": "firebird-cli/firebird-cli.js"
+    }
+  }
+}
