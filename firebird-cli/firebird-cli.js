@@ -22,13 +22,13 @@ module.exports = function (RED) {
                     callback(err, null);
                     return;
                 }
+
                 db.query(query, function (err, result) {
-                    if (err) {
+                    if(err) {
                         node.error(err);
-                        callback(err, result);
                     }
-                    db.detach();
                     callback(err, result);
+                    db.detach();
                 })
             });
         };
