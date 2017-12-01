@@ -1,6 +1,6 @@
 {
   "name": "node-red-firebird-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node-RED's node for connect to firebird.",
   "repository": {
     "type": "git",
