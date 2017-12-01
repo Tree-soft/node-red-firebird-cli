@@ -25,7 +25,7 @@ module.exports = function (RED) {
                 db.query(query, function (err, result) {
                     if (err) {
                         node.error(err);
-                        done(err, result);
+                        callback(err, result);
                     }
                     db.detach();
                     callback(err, result);
